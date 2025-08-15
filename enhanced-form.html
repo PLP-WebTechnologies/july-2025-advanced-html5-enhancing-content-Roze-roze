@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+</head>
+<body>
+    <header>
+        <h1>Power Learn Project</h1>
+        <img src="plp.jpg" alt="power learn project logo"width="200" height="200">
+    </header>
+    <main>
+        <section>
+            <h2>Start Your Learning With Us</h2>
+            <h3>Courses</h3>
+            <ul>
+                <li>HTML,CSS & Javascript</li>
+                <li>python</li>
+                <li>Database</li>
+            </ul>
+            <h3>Steps To Take</h3>
+            <ol>
+                <li>Fill in the form fields</li>
+                <li>Ensure required field are completed</li>
+                <li>Submit the form for validation</li>
+            
+            </ol>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML,CSS & Javascript</td>
+                        <td>6 month</td>
+                    </tr>
+                    <tr>
+                            <td>python</td>
+                            <td>12 month</td>
+                    </tr>
+                    <tr>
+                        <td>Database</td>
+                        <td>12 month</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Sample Video</h3>
+            <video controls>
+                <source src="https://s3.fr-par.scw.cloud/files.powerlearnprojectafrica.org/lms/production/videos/html-forms.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20250815%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20250815T111536Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=d5b44fe1207eee69a91f86f746105a6bdde554d284407abcb2953df4bb5252a0" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h3>Registration Forn</h3>
+            <form action="submit" method="post" autocomplete=""on">
+         <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">FullName</label>
+            <input type="text" name="fullname" placeholder="Enter your full name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter your email address" required><br>
+            <label for="phone">Phone</label>
+            <input type="phone" name="phone" placeholder="Enter yor phone number" required>
+         </fieldset>
+            <button type="submit">submit</submit>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
